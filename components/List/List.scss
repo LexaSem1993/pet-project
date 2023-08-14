@@ -1,0 +1,25 @@
+.list{
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: antiquewhite;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 10px 0;
+  .label{
+    margin-left: 10px;
+  }
+  .remove{
+    color: chocolate;
+    background-color: azure;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .input{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+  }
+}

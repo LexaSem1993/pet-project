@@ -1,0 +1,18 @@
+.post{
+  color: antiquewhite;
+  background-color: dimgray;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0px auto 10px;
+  &__title{
+    font-size: 25px;
+  }
+  &__button{
+    border: none;
+    background-color: #31e22b;
+    color: brown;
+    padding: 5px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,27 @@
+.header{
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #123456;
+  padding: 0 15px;
+  &__logo{
+    font-size: 30px;
+    color: aqua;
+  }
+  &__item{
+    margin-right: 20px;
+  }
+  .headerList{
+    display: flex;
+    max-width: 300px;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+  .nav{
+    font-size: 30px;
+    color: chocolate;
+    text-decoration: none;
+  }
+}
